@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "jelber";
+const char* ssid     = "rede";
 const char* password = "12345678";
-const char* host = "www.erradicazica.com";
+const char* host = "www..com";
 boolean estado = true;
 int pino = 5;
 int pinoleitura = 4;
@@ -72,7 +72,7 @@ void GET()
     return;
   }
 
-  String url = "/pedro/leitura.rkt?appnew";
+  String url = "/pedro/leitura.rkt?query";
 
   Serial.print("Requesting URL: ");
   Serial.println(url);
