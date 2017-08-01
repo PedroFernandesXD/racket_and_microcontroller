@@ -1,4 +1,4 @@
-# Arduino with microcontroller and Racket with backend web.
+# Arduino with microcontroller and Racket with back-end web.
 
 Neste projeto utilizasse da linguagem Racket, sqlite3 e como microntrolador o Arduino. 
 
